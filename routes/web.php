@@ -28,3 +28,4 @@ Route::get('/test', function () {
   $time += microtime(true);
   return (string)$classifier->predict([3, 4]) . " took $time seconds";
 });
+Route::get('test2', 'DataViewController@index');

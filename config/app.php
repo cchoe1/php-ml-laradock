@@ -160,6 +160,13 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        /*
+         * Custom
+         */
+        App\Providers\DataCollectorServiceProvider::class,
+        App\Providers\GoutteScraper::class,
+
     ],
 
     /*
